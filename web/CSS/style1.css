@@ -1,0 +1,60 @@
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: thin solid black;
+    padding: 5px;
+}
+
+table, td {
+    font: 12px/180% Arial, "宋体", Helvetica, sans-serif, Verdana;
+    color: #58595b;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+th, td {
+    border-collapse: collapse;
+}
+
+A:link {
+    text-decoration: none;
+    color: #58595b;
+}
+
+A:visited {
+    text-decoration: none;
+    color: #58595b;
+}
+
+A:hover {
+    text-decoration: none;
+    color: #206fd5;
+}
+
+div, p, img, ul, li, form, input, label, span, dl, dt, dd, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul, li {
+    list-style-type: none;
+}
+
+a {
+    blr: expression(this.onFocus=this.blur())
+}
+
+/*for IE*/
+a {
+    outline: none;
+}
+
+/*for Firefox*/
